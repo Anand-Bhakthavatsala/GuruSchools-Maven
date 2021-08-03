@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12750" started-at="2021-07-30T02:05:31Z" finished-at="2021-07-30T02:05:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12750" started-at="2021-07-30T02:05:31Z" finished-at="2021-07-30T02:05:44Z">
+      <class name="GuruSchools.GuruSchools_Maven.TestNGDemo1">
+        <test-method status="PASS" signature="browser()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@1d057a39]" name="browser" is-config="true" duration-ms="5050" started-at="2021-07-30T07:35:31Z" finished-at="2021-07-30T07:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="google()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@1d057a39]" name="google" duration-ms="2929" started-at="2021-07-30T07:35:36Z" finished-at="2021-07-30T07:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="close()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@1d057a39]" name="close" is-config="true" duration-ms="4707" started-at="2021-07-30T07:35:39Z" finished-at="2021-07-30T07:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- GuruSchools.GuruSchools_Maven.TestNGDemo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

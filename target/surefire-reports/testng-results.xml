@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11786" started-at="2021-07-30T01:38:48Z" finished-at="2021-07-30T01:39:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11786" started-at="2021-07-30T01:38:48Z" finished-at="2021-07-30T01:39:00Z">
+      <class name="GuruSchools.GuruSchools_Maven.TestNGDemo1">
+        <test-method status="PASS" signature="browser()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@6b143ee9]" name="browser" is-config="true" duration-ms="3715" started-at="2021-07-30T07:08:48Z" finished-at="2021-07-30T07:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="spiceJet()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@6b143ee9]" name="spiceJet" duration-ms="2523" started-at="2021-07-30T07:08:52Z" finished-at="2021-07-30T07:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spiceJet -->
+        <test-method status="PASS" signature="zmavenRepository()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@6b143ee9]" name="zmavenRepository" duration-ms="5001" started-at="2021-07-30T07:08:54Z" finished-at="2021-07-30T07:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zmavenRepository -->
+        <test-method status="PASS" signature="close()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@6b143ee9]" name="close" is-config="true" duration-ms="527" started-at="2021-07-30T07:08:59Z" finished-at="2021-07-30T07:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- GuruSchools.GuruSchools_Maven.TestNGDemo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
