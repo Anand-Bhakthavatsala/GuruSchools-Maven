@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.529" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.164" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -14,13 +14,12 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="testngfile" value="testngdemo2.xml"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire6510695355871371822\surefirebooter5406826206794080514.jar C:\Users\HP\AppData\Local\Temp\surefire6510695355871371822 2021-07-30T07-08-46_789-jvmRun1 surefire7481397866860877615tmp surefire_08095731793098905180tmp"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire6585121258617414318\surefirebooter3715188186847468485.jar C:\Users\HP\AppData\Local\Temp\surefire6585121258617414318 2021-08-06T07-33-41_505-jvmRun1 surefire3293074030816590029tmp surefire_02919810559817871735tmp"/>
     <property name="surefire.test.class.path" value="E:\eclipse-workspace\GuruSchools-Maven\target\test-classes;E:\eclipse-workspace\GuruSchools-Maven\target\classes;C:\Users\HP\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\HP\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\HP\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\HP\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\HP\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\HP\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\HP\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\HP\.m2\repository\org\testng\testng\6.9.13.6\testng-6.9.13.6.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\HP\.m2\repository\org\apache\ant\ant\1.9.7\ant-1.9.7.jar;C:\Users\HP\.m2\repository\org\apache\ant\ant-launcher\1.9.7\ant-launcher-1.9.7.jar;C:\Users\HP\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\HP"/>
@@ -33,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire6510695355871371822\surefirebooter5406826206794080514.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire6585121258617414318\surefirebooter3715188186847468485.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -54,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.14\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\apache-maven-3.6.2\bin;%PYTHON_HOME%;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python39\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\GitHubDesktop\bin;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.14\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\apache-maven-3.6.2\bin;%PYTHON_HOME%;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python39\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\GitHubDesktop\bin;C:\Users\HP\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.241-b07"/>
@@ -62,6 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="spiceJet" classname="GuruSchools.GuruSchools_Maven.TestNGDemo1" time="2.527"/>
-  <testcase name="zmavenRepository" classname="GuruSchools.GuruSchools_Maven.TestNGDemo1" time="5.001"/>
+  <testcase name="TC1" classname="GuruSchools.GuruSchools_Maven.TestNGDemo2" time="0.002"/>
+  <testcase name="vegitable" classname="GuruSchools.GuruSchools_Maven.TestNGDemo2" time="0.001"/>
+  <testcase name="TC2" classname="GuruSchools.GuruSchools_Maven.TestNGDemo2" time="0.001"/>
+  <testcase name="TC3" classname="GuruSchools.GuruSchools_Maven.TestNGDemo2" time="0"/>
+  <testcase name="Animal" classname="GuruSchools.GuruSchools_Maven.TestNGDemo2" time="0"/>
+  <testcase name="google" classname="GuruSchools.GuruSchools_Maven.TestNGDemo1" time="10.948"/>
+  <testcase name="zmavenRepository" classname="GuruSchools.GuruSchools_Maven.TestNGDemo1" time="4.882"/>
 </testsuite>

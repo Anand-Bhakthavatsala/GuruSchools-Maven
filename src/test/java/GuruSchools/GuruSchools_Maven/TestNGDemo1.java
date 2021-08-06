@@ -14,13 +14,13 @@ import junit.framework.Assert;
 
 public class TestNGDemo1 {
 	WebDriver driver=null;
-/*	
+	
 	@Test (priority=0) //Annotation in TestNG
 	public void zmavenRepository() //a-z
 	{
 		driver.get("https://mvnrepository.com/");		
 		System.out.println(driver.getTitle());		
-	}*/
+	}
 	
 	@Test //Annotation in TestNG
 	public void google()

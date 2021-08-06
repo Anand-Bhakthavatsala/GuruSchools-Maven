@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12750" started-at="2021-07-30T02:05:31Z" finished-at="2021-07-30T02:05:44Z">
+  <suite name="Default suite" duration-ms="164" started-at="2021-08-06T01:14:50Z" finished-at="2021-08-06T01:14:50Z">
     <groups>
+      <group name="Regression">
+        <method signature="TestNGDemo2.TC1()[pri:-1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="TC1" class="GuruSchools.GuruSchools_Maven.TestNGDemo2"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TestNGDemo2.TC2()[pri:1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="TC2" class="GuruSchools.GuruSchools_Maven.TestNGDemo2"/>
+        <method signature="TestNGDemo2.TC3()[pri:1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="TC3" class="GuruSchools.GuruSchools_Maven.TestNGDemo2"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="12750" started-at="2021-07-30T02:05:31Z" finished-at="2021-07-30T02:05:44Z">
-      <class name="GuruSchools.GuruSchools_Maven.TestNGDemo1">
-        <test-method status="PASS" signature="browser()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@1d057a39]" name="browser" is-config="true" duration-ms="5050" started-at="2021-07-30T07:35:31Z" finished-at="2021-07-30T07:35:36Z">
+    <test name="Default test" duration-ms="164" started-at="2021-08-06T01:14:50Z" finished-at="2021-08-06T01:14:50Z">
+      <class name="GuruSchools.GuruSchools_Maven.TestNGDemo2">
+        <test-method status="PASS" signature="TC1()[pri:-1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="TC1" duration-ms="45" started-at="2021-08-06T06:44:50Z" finished-at="2021-08-06T06:44:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method status="PASS" signature="google()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@1d057a39]" name="google" duration-ms="2929" started-at="2021-07-30T07:35:36Z" finished-at="2021-07-30T07:35:39Z">
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="vegitable()[pri:-1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="vegitable" duration-ms="7" started-at="2021-08-06T06:44:50Z" finished-at="2021-08-06T06:44:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google -->
-        <test-method status="PASS" signature="close()[pri:0, instance:GuruSchools.GuruSchools_Maven.TestNGDemo1@1d057a39]" name="close" is-config="true" duration-ms="4707" started-at="2021-07-30T07:35:39Z" finished-at="2021-07-30T07:35:44Z">
+        </test-method> <!-- vegitable -->
+        <test-method status="PASS" signature="TC2()[pri:1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="TC2" duration-ms="6" started-at="2021-08-06T06:44:50Z" finished-at="2021-08-06T06:44:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- GuruSchools.GuruSchools_Maven.TestNGDemo1 -->
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC3()[pri:1, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="TC3" duration-ms="2" started-at="2021-08-06T06:44:50Z" finished-at="2021-08-06T06:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="Animal()[pri:2, instance:GuruSchools.GuruSchools_Maven.TestNGDemo2@4cc0edeb]" name="Animal" duration-ms="3" started-at="2021-08-06T06:44:50Z" finished-at="2021-08-06T06:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Animal -->
+      </class> <!-- GuruSchools.GuruSchools_Maven.TestNGDemo2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
