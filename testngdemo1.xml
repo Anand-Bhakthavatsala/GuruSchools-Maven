@@ -5,6 +5,7 @@
     <classes>
       <class name="GuruSchools.GuruSchools_Maven.TestNGDemo1"/>
        <class name="GuruSchools.GuruSchools_Maven.TestNGDemo2"/>
+       <class name="GuruSchools.GuruSchools_Maven.TestNGTCs"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
